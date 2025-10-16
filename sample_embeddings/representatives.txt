@@ -1,25 +1,105 @@
 ================================================================================
-Cluster 0 Representative File: 2509.17125v1.txt
-Abstract:
-Relational object rearrangement (ROR) tasks (e.g., insert flower to vase) require a robot to manipulate objects with precise semantic and geometric reasoning. Existing approaches either rely on pre-collected demonstrations that struggle to capture complex geometric constraints or generate goal-state observations to capture semantic and geometric knowledge, but fail to explicitly couple object transformation with action prediction, resulting in errors due to generative noise. To address these limitations, we propose Imagine2Act, a 3D imitation-learning framework that incorporates semantic and geometric constraints of objects into policy learning to tackle high-precision manipulation tasks. We first generate imagined goal images conditioned on language instructions and reconstruct corresponding 3D point clouds to provide robust semantic and geometric priors. These imagined goal point clouds serve as additional inputs to the policy model, while an object-action consistency strategy with soft pose supervision explicitly aligns predicted end-effector motion with generated object transformation. This design enables Imagine2Act to reason about semantic and geometric relationships between objects and predict accurate actions across diverse tasks. Experiments in both simulation and the real world demonstrate that Imagine2Act outperforms previous state-of-the-art policies. More visualizations can be found at https://sites.google.com/view/imagine2act.
+Cluster 0 (Size: 50 papers)
+Representative File: 2411.19523v2.txt
+Title: Density-Calibrated Conformal Quantile Regression
+Abstract Preview:
+Density-Calibrated Conformal Quantile Regression. This paper introduces the Density-Calibrated Conformal Quantile Regression (CQR-d) method, a novel approach for constructing prediction intervals that adapts to varying uncertainty across the feature space. Building upon conformal quantile regression, CQR-d incorporates local information through a weighted combination of local and global conformity scores, where the weights are determined by local data density. We prove that CQR-d provides valid ...
 
 ================================================================================
-Cluster 1 Representative File: 2509.17794v1.txt
-Abstract:
-Natural language generation (NLG) tasks are often subject to inherent variability; \emph{e.g.} predicting the next word given a context has multiple valid responses, evident when asking multiple humans to complete the task. While having language models (LMs) that are aligned pluralistically, so that they are able to reproduce well the inherent diversity in perspectives of an entire population of interest is clearly beneficial, \citet{ilia2024predict} show that LMs do not reproduce this type of linguistic variability well. They speculate this inability might stem from the lack of consistent training of LMs with data reflecting this type of inherent variability. As such, we investigate whether training LMs on multiple plausible word continuations per context can improve their ability to reproduce human linguistic variability for next-word prediction. We employ fine-tuning techniques for pre-trained and instruction-tuned models; and demonstrate their potential when fine-tuning GPT-2 and Mistral-7B-IT, using Provo Corpus. Our evaluation, which measures divergence among empirically estimated human and model next-word distributions across contexts before and after fine-tuning, shows that our multi-label fine-tuning improves the LMs' ability to reproduce linguistic variability; both for contexts that admit higher and lower variability.
+Cluster 1 (Size: 102 papers)
+Representative File: 2311.04457v1.txt
+Title: Evaluating Uncertainty Quantification approaches for Neural PDEs in   scientific applications
+Abstract Preview:
+Evaluating Uncertainty Quantification approaches for Neural PDEs in   scientific applications. The accessibility of spatially distributed data, enabled by affordable sensors, field, and numerical experiments, has facilitated the development of data-driven solutions for scientific problems, including climate change, weather prediction, and urban planning. Neural Partial Differential Equations (Neural PDEs), which combine deep learning (DL) techniques with domain expertise (e.g., governing equatio...
 
 ================================================================================
-Cluster 2 Representative File: 2509.17243v1.txt
-Abstract:
-Strong light-matter coupling in Fabry-Perot cavities can modify ground-state molecular reactivity, charge and energy transport, while modifications to single-molecule properties have not been observed experimentally. The mechanisms and reproducibility of such effects remain contested, with conflicting theoretical predictions driven by differences in Hamiltonian choice and quantum state representation. Here, we resolve these ambiguities with numerically exact quantum simulations of cavity-coupled molecular ensembles based on the ab initio light-matter Hamiltonian, treating electrons, nuclei, and cavity photons on equal footing. We investigate ensembles of the rotational-vibrational-electronic Shin-Metiu model using variational tree-tensor-network quantum dynamics, capturing rovibronic couplings and anharmonicity. Embedding ensembles in a cavity induces local modifications of rotational, nuclear, and --more weakly-- electronic observables in individual molecules. The extent of these modifications depends only on the per-molecule coupling strength up until each molecule reaches the ultrastrong coupling regime, which remains unattainable in practical Fabry-Perot setups. Increasing ensemble size toward the thermodynamic limit causes these local modifications to vanish regardless of dipole self-energy inclusion. Nonetheless, global ground-state observables, such as light-matter coupling energy contributions (affecting overall polarizability) and cavity field displacement fluctuations, depend crucially on proper treatment of intermolecular and light-matter correlations, whereas intramolecular observables remain largely insensitive. These insights are crucial for guiding future investigations using approximate quantum treatments, and for the interpretation of experimental results in polaritonic chemistry.
+Cluster 2 (Size: 93 papers)
+Representative File: 2504.16680v1.txt
+Title: Offline Robotic World Model: Learning Robotic Policies without a Physics   Simulator
+Abstract Preview:
+Offline Robotic World Model: Learning Robotic Policies without a Physics   Simulator. Reinforcement Learning (RL) has demonstrated impressive capabilities in robotic control but remains challenging due to high sample complexity, safety concerns, and the sim-to-real gap. While offline RL eliminates the need for risky real-world exploration by learning from pre-collected data, it suffers from distributional shift, limiting policy generalization. Model-Based RL (MBRL) addresses this by leveraging p...
 
 ================================================================================
-Cluster 3 Representative File: 2509.18850v1.txt
-Abstract:
-Astrophysical jets from powerful active galactic nuclei (AGN) have recently been proposed as promising probes of dark matter (DM) in the sub-GeV mass range. AGN launch relativistic jets that accelerate cosmic rays (CRs) to very high energies, which can then interact with their surroundings and produce multiwavelength (MW) emission spanning from radio frequencies to TeV $\gamma$ rays. If DM consists of light particles, their interactions with CRs could lead to an additional cooling mechanism that modifies the expected MW emission. In this work, we analyse the MW spectrum of Markarian 421, a well-studied AGN, using a multizone leptonic jet model that includes the interactions between CR electrons and DM particles. For the first time, we account for the uncertainties in the astrophysical jet dynamics, which have been previously neglected when constraining the CR-DM interactions. By fitting simultaneously jet parameters and DM-electrons interactions, we use the MW data from Markarian 421 to set constraints on the DM-induced CR cooling. We obtain 5$\sigma$ upper limit $\sigma_\text{DM-e} \lesssim 1 \times 10^{-34}~\text{cm}^2$ for a DM mass of $1~{\rm MeV}$. We demonstrate that this is about a factor of five weaker than traditional approaches, implying that properly accounting for degeneracies between jet dynamics and DM interactions is key to derive robust constraints on DM interactions.
+Cluster 3 (Size: 85 papers)
+Representative File: 2404.10124v1.txt
+Title: Epistemic Uncertainty Quantification For Pre-trained Neural Network
+Abstract Preview:
+Epistemic Uncertainty Quantification For Pre-trained Neural Network. Epistemic uncertainty quantification (UQ) identifies where models lack knowledge. Traditional UQ methods, often based on Bayesian neural networks, are not suitable for pre-trained non-Bayesian models. Our study addresses quantifying epistemic uncertainty for any pre-trained model, which does not need the original training data or model modifications and can ensure broad applicability regardless of network architectures or train...
 
 ================================================================================
-Cluster 4 Representative File: 2509.18990v1.txt
-Abstract:
-Simulation-Grounded Neural Networks (SGNNs) are predictive models trained entirely on synthetic data from mechanistic simulations. They have achieved state-of-the-art performance in domains where real-world labels are limited or unobserved, but lack a formal underpinning.   We present the foundational theory of simulation-grounded learning. We show that SGNNs implement amortized Bayesian inference under a simulation prior and converge to the Bayes-optimal predictor. We derive generalization bounds under model misspecification and prove that SGNNs can learn unobservable scientific quantities that empirical methods provably cannot. We also formalize a novel form of mechanistic interpretability uniquely enabled by SGNNs: by attributing predictions to the simulated mechanisms that generated them, SGNNs yield posterior-consistent, scientifically grounded explanations.   We provide numerical experiments to validate all theoretical predictions. SGNNs recover latent parameters, remain robust under mismatch, and outperform classical tools: in a model selection task, SGNNs achieve half the error of AIC in distinguishing mechanistic dynamics. These results establish SGNNs as a principled and practical framework for scientific prediction in data-limited regimes.
+Cluster 4 (Size: 88 papers)
+Representative File: 2405.09602v1.txt
+Title: Improving Label Error Detection and Elimination with Uncertainty   Quantification
+Abstract Preview:
+Improving Label Error Detection and Elimination with Uncertainty   Quantification. Identifying and handling label errors can significantly enhance the accuracy of supervised machine learning models. Recent approaches for identifying label errors demonstrate that a low self-confidence of models with respect to a certain label represents a good indicator of an erroneous label. However, latest work has built on softmax probabilities to measure self-confidence. In this paper, we argue that -- as sof...
+
+================================================================================
+Cluster 5 (Size: 193 papers)
+Representative File: 2407.07700v2.txt
+Title: Split Conformal Prediction under Data Contamination
+Abstract Preview:
+Split Conformal Prediction under Data Contamination. Conformal prediction is a non-parametric technique for constructing prediction intervals or sets from arbitrary predictive models under the assumption that the data is exchangeable. It is popular as it comes with theoretical guarantees on the marginal coverage of the prediction sets and the split conformal prediction variant has a very low computational cost compared to model training. We study the robustness of split conformal prediction in a...
+
+================================================================================
+Cluster 6 (Size: 88 papers)
+Representative File: 2508.04457v1.txt
+Title: Benchmarking Uncertainty and its Disentanglement in multi-label Chest   X-Ray Classification
+Abstract Preview:
+Benchmarking Uncertainty and its Disentanglement in multi-label Chest   X-Ray Classification. Reliable uncertainty quantification is crucial for trustworthy decision-making and the deployment of AI models in medical imaging. While prior work has explored the ability of neural networks to quantify predictive, epistemic, and aleatoric uncertainties using an information-theoretical approach in synthetic or well defined data settings like natural image classification, its applicability to real life ...
+
+================================================================================
+Cluster 7 (Size: 43 papers)
+Representative File: 2508.17097v1.txt
+Title: Two Birds with One Stone: Enhancing Uncertainty Quantification and   Interpretability with Graph Functional Neural Process
+Abstract Preview:
+Two Birds with One Stone: Enhancing Uncertainty Quantification and   Interpretability with Graph Functional Neural Process. Graph neural networks (GNNs) are powerful tools on graph data. However, their predictions are mis-calibrated and lack interpretability, limiting their adoption in critical applications. To address this issue, we propose a new uncertainty-aware and interpretable graph classification model that combines graph functional neural process and graph generative model. The core of o...
+
+================================================================================
+Cluster 8 (Size: 87 papers)
+Representative File: 2306.09686v2.txt
+Title: Collapsed Inference for Bayesian Deep Learning
+Abstract Preview:
+Collapsed Inference for Bayesian Deep Learning. Bayesian neural networks (BNNs) provide a formalism to quantify and calibrate uncertainty in deep learning. Current inference approaches for BNNs often resort to few-sample estimation for scalability, which can harm predictive performance, while its alternatives tend to be computationally prohibitively expensive. We tackle this challenge by revealing a previously unseen connection between inference on BNNs and volume computation problems. With this...
+
+================================================================================
+Cluster 9 (Size: 96 papers)
+Representative File: 2202.09664v1.txt
+Title: Accurate Prediction and Uncertainty Estimation using Decoupled   Prediction Interval Networks
+Abstract Preview:
+Accurate Prediction and Uncertainty Estimation using Decoupled   Prediction Interval Networks. We propose a network architecture capable of reliably estimating uncertainty of regression based predictions without sacrificing accuracy. The current state-of-the-art uncertainty algorithms either fall short of achieving prediction accuracy comparable to the mean square error optimization or underestimate the variance of network predictions. We propose a decoupled network architecture that is capable ...
+
+================================================================================
+Cluster 10 (Size: 54 papers)
+Representative File: 2405.20986v2.txt
+Title: Predictive Uncertainty Quantification for Bird's Eye View Segmentation:   A Benchmark and Novel Loss Function
+Abstract Preview:
+Predictive Uncertainty Quantification for Bird's Eye View Segmentation:   A Benchmark and Novel Loss Function. The fusion of raw sensor data to create a Bird's Eye View (BEV) representation is critical for autonomous vehicle planning and control. Despite the growing interest in using deep learning models for BEV semantic segmentation, anticipating segmentation errors and enhancing the explainability of these models remain underexplored. This paper introduces a comprehensive benchmark for predict...
+
+================================================================================
+Cluster 11 (Size: 141 papers)
+Representative File: 2403.12729v1.txt
+Title: Posterior Uncertainty Quantification in Neural Networks using Data   Augmentation
+Abstract Preview:
+Posterior Uncertainty Quantification in Neural Networks using Data   Augmentation. In this paper, we approach the problem of uncertainty quantification in deep learning through a predictive framework, which captures uncertainty in model parameters by specifying our assumptions about the predictive distribution of unseen future data. Under this view, we show that deep ensembling (Lakshminarayanan et al., 2017) is a fundamentally mis-specified model class, since it assumes that future data are sup...
+
+================================================================================
+Cluster 12 (Size: 104 papers)
+Representative File: 2504.18433v2.txt
+Title: An Axiomatic Assessment of Entropy- and Variance-based Uncertainty   Quantification in Regression
+Abstract Preview:
+An Axiomatic Assessment of Entropy- and Variance-based Uncertainty   Quantification in Regression. Uncertainty quantification (UQ) is crucial in machine learning, yet most (axiomatic) studies of uncertainty measures focus on classification, leaving a gap in regression settings with limited formal justification and evaluations. In this work, we introduce a set of axioms to rigorously assess measures of aleatoric, epistemic, and total uncertainty in supervised regression. By utilizing a predictive...
+
+================================================================================
+Cluster 13 (Size: 166 papers)
+Representative File: 2405.13845v3.txt
+Title: Semantic Density: Uncertainty Quantification for Large Language Models   through Confidence Measurement in Semantic Space
+Abstract Preview:
+Semantic Density: Uncertainty Quantification for Large Language Models   through Confidence Measurement in Semantic Space. With the widespread application of Large Language Models (LLMs) to various domains, concerns regarding the trustworthiness of LLMs in safety-critical scenarios have been raised, due to their unpredictable tendency to hallucinate and generate misinformation. Existing LLMs do not have an inherent functionality to provide the users with an uncertainty/confidence metric for each...
+
+================================================================================
+Cluster 14 (Size: 110 papers)
+Representative File: 2203.07080v1.txt
+Title: Probabilistic forecasts of wind power generation in regions with complex   topography using deep learning methods: An Arctic case
+Abstract Preview:
+Probabilistic forecasts of wind power generation in regions with complex   topography using deep learning methods: An Arctic case. The energy market relies on forecasting capabilities of both demand and power generation that need to be kept in dynamic balance. Today, when it comes to renewable energy generation, such decisions are increasingly made in a liberalized electricity market environment, where future power generation must be offered through contracts and auction mechanisms, hence based ...
 

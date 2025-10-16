@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Ignore PDF Files
+*.pdf
+
 # C extensions
 *.so
 
